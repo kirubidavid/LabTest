@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="" th:action="@{/}" th:object="${frmUserDto}" method="post">
+	<input type="text" th:field="*{txtEmail}">
+	<button>Sign In</button>
+</form>
+
+</body>
+</html>
